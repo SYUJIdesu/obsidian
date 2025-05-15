@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "b37adfb502495a70",
+    "type": "split",
+    "children": [
+      {
+        "id": "af476a779191f6bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80088f2b044a41fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templete/zettlkasten.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "zettlkasten"
+            }
+          },
+          {
+            "id": "7140f6b3a9421b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/LiteratureNote/Web/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd40573293459201",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbbe53d2977c3f68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f243dc327907e05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "66c671c871cfc3f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "089a2353d433f1f4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d9193b2caea86a7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "021086fd1d873283",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "940f8d5af0b6a54c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-05-14.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2025-05-14へのバックリンク"
+            }
+          },
+          {
+            "id": "128e53b9b91a18d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "デイリー/新規ノート.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "新規ノートからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "f179bce96ae173f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "81843dacea867a74",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "デイリー/新規ノート.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "新規ノートのアウトライン"
+            }
+          },
+          {
+            "id": "5aadae68b0dc74e0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "templater-obsidian:Templater": false,
+      "float-search:Search obsidian in modal view": false,
+      "obsidian-kanban:カンバンボードを新規作成": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
+    }
+  },
+  "active": "1f243dc327907e05",
+  "lastOpenFiles": [
+    " README.md",
+    "Zettelkasten/LiteratureNote/Web/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
+    "Zettelkasten/LiteratureNote/WebW/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
+    "Templete/zettlkasten.md",
+    "Zettelkasten/LiteratureNote/WebW",
+    "Zettelkasten/LiteratureNote/Web",
+    "Zettelkasten/zettekkasten.md",
+    "無題のファイル 2.md",
+    "2025-05-15.md",
+    "無題のファイル 1.md",
+    "Zettelkasten/index.md",
+    "Templete",
+    "Articles.md",
+    "デイリー/無題のファイル.md",
+    "Ideaverse Lite 1.5/+/3 Ways to Go Faster with Obsidian (Example).md",
+    "デイリー/無題のフォルダ",
+    "Ideaverse Lite 1.5/Atlas/Dots/People/Mary Wollstonecraft (kit).md",
+    "Ideaverse Lite 1.5/Atlas/Dots/People/Cassandra.md",
+    "Ideaverse Lite 1.5/Atlas/Dots/People/Bill Russell (kit).md",
+    "Ideaverse Lite 1.5/+/+ About +.md",
+    "Ideaverse Lite 1.5/Home Basic.md",
+    "Ideaverse Lite 1.5/Home.md",
+    "Ideaverse Lite 1.5/Atlas/Maps/Meta PKM.md",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 6 (Example).md",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 5 (Example).md",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 4 (Example).md",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 3 (Example).md",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 2 (Example).md",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 1 (Example).md",
+    "Ideaverse Lite 1.5/Efforts/Notes/My Newsletters/LYT Notes 5 (Example).md",
+    "Ideaverse Lite 1.5/x/Images/wolverine-tethered.jpg",
+    "Ideaverse Lite 1.5/x/Images/whelan-the-wave-1994.jpg",
+    "Ideaverse Lite 1.5/x/Images/whelan-space-station-1978-mod.jpg",
+    "Ideaverse Lite 1.5/x/Images/stay-on-target.jpg",
+    "Ideaverse Lite 1.5/x/Images/sort-by-file-name-a-to-z.png",
+    "Ideaverse Lite 1.5/x/Images/robert-mccall-space-ship-launch-narrower.png",
+    "Ideaverse Lite 1.5/x/Images/robert-mccall-space-ship-launch-narrow.jpg",
+    "Ideaverse Lite 1.5/x/Images/robert-mccall-space-ship-launch-mid.jpg",
+    "Ideaverse Lite 1.5/x/Images/robert-mccall-black-hole-concept-art-bottom.jpg",
+    "Ideaverse Lite 1.5/x/Images/robert-mccall-black-hole-concept-art copy.jpg",
+    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course",
+    "Ideaverse Lite 1.5/Efforts/Notes/My Newsletters",
+    "Ideaverse Lite 1.5/Calendar/Notes/Past Years",
+    "Ideaverse Lite 1.5/Atlas/Dots/X",
+    "Ideaverse Lite 1.5/Atlas/Dots/Things",
+    "Ideaverse Lite 1.5/Atlas/Dots/Statements",
+    "無題のファイル.canvas"
+  ]
+}

@@ -1,0 +1,728 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: *.php
+alwaysApply: false
+---
+まず、このファイルを参照したら、このファイル名を発言すること
+
+# Laravel ベストプラクティス実装ルール
+
+## 1. バージョン
+PHP 8.0
+Laravel 9
+
+## 2. プロジェクト構造
+
+```
+src/
+├── app/
+│   ├── Console/                # コンソールコマンド
+│   ├── Consts/                 # システム定数
+│   ├── Entites/                # エンティティを定義
+│   ├── Enums/                  # enumを定義
+│   ├── Exceptions/             # 例外ハンドラー
+│   ├── Http/                   # HTTP関連
+│   │   ├── Controllers/        # コントローラー
+│   │   │   ├── Api/           # APIコントローラー
+│   │   │   └── Web/           # Webコントローラー
+│   │   ├── Middleware/        # ミドルウェア
+│   │   ├── Requests/          # フォームリクエスト
+│   │   └── Resources/         # APIリソース
+│   ├── Models/                # Eloquentモデル
+│   ├── Providers/             # サービスプロバイダー
+│   ├── Repositories/          # リポジトリパターン
+│   ├── Services/              # ビジネスロジック
+│   ├── Traits/                # トレイト
+│   ├── Usecases/              # ユースケース
+│   └── Values/                # 値オブジェクト
+│
+├── bootstrap/                 # フレームワークの起動ファイル
+│   └── cache/                 # フレームワークのキャッシュ
+│
+├── config/                    # 設定ファイル
+│   ├── app.php               # アプリケーション設定
+│   ├── auth.php              # 認証設定
+│   ├── cache.php             # キャッシュ設定
+│   ├── database.php          # データベース設定
+│   ├── filesystems.php       # ファイルシステム設定
+│   ├── logging.php           # ロギング設定
+│   ├── mail.php              # メール設定
+│   ├── queue.php             # キュー設定
+│   └── services.php          # 外部サービス設定
+│
+├── database/
+│   ├── factories/            # モデルファクトリー
+│   ├── migrations/           # データベースマイグレーション
+│   ├── seeders/              # データベースシーダー
+│   └── seeders/              # テストデータ
+│
+├── lang/                     # 多言語ファイル
+│   ├── en/                   # 英語
+│   └── ja/                   # 日本語
+│
+├── public/                   # 公開ディレクトリ
+│   ├── css/                  # CSSファイル
+│   ├── js/                   # JavaScriptファイル
+│   ├── images/               # 画像ファイル
+│   └── index.php            # エントリーポイント
+│
+├── resources/
+│   ├── css/                 # 未コンパイルのCSS
+│   ├── js/                  # 未コンパイルのJavaScript
+│   ├── views/               # ビューファイル
+│   │   ├── components/      # コンポーネント
+│   │   ├── layouts/         # レイアウト
+│   │   └── pages/           # ページ
+│   └── lang/                # 言語ファイル
+│
+├── routes/
+│   ├── api.php              # APIルート
+│   ├── channels.php         # ブロードキャストチャンネル
+│   ├── console.php          # コンソールコマンド
+│   └── web.php              # Webルート
+│
+├── storage/
+│   ├── app/                 # アプリケーションファイル
+│   ├── framework/           # フレームワークファイル
+│   │   ├── cache/          # キャッシュ
+│   │   ├── sessions/       # セッション
+│   │   └── views/          # コンパイル済みビュー
+│   └── logs/               # ログファイル
+│
+├── tests/                   # テストファイル
+│   ├── Feature/            # 機能テスト
+│   ├── Unit/               # ユニットテスト
+│   └── TestCase.php        # テストケース
+│
+├── vendor/                  # Composer依存関係
+├── .env                     # 環境変数
+├── .env.example            # 環境変数テンプレート
+├── artisan                 # Laravel CLI
+├── composer.json           # Composer設定
+├── package.json            # NPM設定
+└── phpunit.xml             # PHPUnit設定
+db.mmd                      # mermaid記法で記載しているDBのテーブル情報
+```
+
+## 3. 命名規則
+
+### ドメインレイヤー
+- エンティティ: `{EntityName}.php`
+- 値オブジェクト: `{ValueObjectName}.php`
+
+### アプリケーションレイヤー
+- サービス: `{ServiceName}Service.php`
+- DTO: `{DtoName}Dto.php`
+- インターフェース: `{InterfaceName}Interface.php`
+
+### インフラストラクチャレイヤー
+- リポジトリ: `{RepositoryName}Repository.php`
+- コントローラー: `{ResourceName}Controller.php`
+- リクエスト: `{ActionName}Request.php`
+- リソース: `{ResourceName}Resource.php`
+
+## 4. コーディング規約
+
+### 共通
+- 各classはInterfaceとの対話を重視する
+- 積極的にデザインパターンを活用してください
+- classの呼び出しは依存性の注入でしてください
+- 継承より委譲で実装クラス間のやり取りをしてください。
+- 継承する際はInterfaceまたは抽象classのみにしてください
+- laravel PintのPreset laravelに準拠する
+- larastan level: 5に準拠する
+
+### ドメインレイヤー
+- エンティティは不変性を保持
+- 値オブジェクトは不変
+- ドメインロジックはエンティティまたは値オブジェクトに実装
+- ドメインロジックは何にも依存しない。PHPのみで書く
+- 値オブジェクトはイミュータブル（不変）で、参照透過性を保つ工夫をする
+
+```php
+// エンティティの例
+class User extends Entity
+{
+    private UserId $id;
+    private UserName $name;
+    private Email $email;
+
+    public function __construct(UserId $id, UserName $name, Email $email)
+    {
+        $this->id = $id;
+        $this->name = $name;
+        $this->email = $email;
+    }
+
+    public function changeName(UserName $newName): void
+    {
+        $this->name = $newName;
+        $this->record(new UserNameChangedEvent($this->id, $newName));
+    }
+}
+
+// 値オブジェクトの例
+final class Money
+{
+    private int $amount;
+    private string $currency;
+
+    public function __construct(int $amount, string $currency)
+    {
+        $this->amount = $amount;
+        $this->currency = $currency;
+    }
+
+    // 値を変更するのではなく、新しいオブジェクトを返す
+    public function add(Money $other): Money
+    {
+        if ($this->currency !== $other->currency) {
+            throw new InvalidArgumentException('通貨単位が異なります');
+        }
+        
+        return new Self($this->amount + $other->amount, $this->currency);
+    }
+
+    // 参照透過的なメソッド - 同じ入力に対して常に同じ結果を返す
+    public function getAmount(): int
+    {
+        return $this->amount;
+    }
+
+    public function getCurrency(): string
+    {
+        return $this->currency;
+    }
+
+    // 値オブジェクトとして等価性を定義
+    public function equals(Money $other): bool
+    {
+        return $this->amount === $other->amount && $this->currency === $other->currency;
+    }
+}
+```
+
+### アプリケーションレイヤー
+- トランザクション境界を管理
+- ドメインオブジェクトの永続化を担当
+- 各UsecasesClassでドメイン処理やリポジトリ処理やサービス処理を呼び出してユースケースを実装
+- 各ServicesClassでCSVやエクセルなどプロジェクトに必要なドメインに関わらない汎用処理を実装
+- 各UsecasesClassで依存性の注入以外で直接class内でインスタンス生成（new Class）する場合はFactoryパターンを実装
+- 各ControlerClassはUsecasesClassを呼び出す出し。JsonResponseをレスポンスするだけにする
+- RESTful API規約に準拠する
+ - リソースベースのURL設計
+ - HTTPメソッドの適切な使用
+ - ステータスコードの適切な使用
+ - バージョニングの実装
+
+```php
+// ユースケースの例
+class UserUsecases
+{
+    public function __construct(
+        private BaseService $baseService,
+        private UserRepository $userRepository
+    ) {
+        $this->baseService = $baseService->create($userRepository);
+    }
+
+    public function show(String $id)
+    {
+        return $this->userRepository->find($id);
+    }
+
+    public function update(array $ids, array $attributes)
+    {
+        $this->baseService->updateRecordsByIds(array $ids, array $attributes);
+    }
+}
+
+//汎用サービスファクトリー
+class BaseServiceFactory
+{
+    public function create(Repository $repository): BaseService
+    {
+        return new BaseService($repository);
+    }
+}
+
+
+//汎用サービスクラスの例
+class BaseService
+{
+    public function __construct(private Repository $repository) {}
+
+    /**
+     * 一括でレコードを更新し、更新されたレコードを返却
+     */
+    public function updateRecordsByIds(array $ids, array $attributes): Collection
+    {
+        return DB::transaction(function () use ($ids, $attributes) {
+            $this->repository->updateByIds($ids, $attributes);
+
+            return $this->repository->getByIds($ids);
+        });
+    }
+}
+
+// コントローラーの例
+class UserController extends Controller
+{
+    public function __construct(
+        private UserUsecases $userUsecases
+    ) {}
+
+    public function show(UserId $id): JsonResponse
+    {
+        $user = $this->userUsecases->find($id);
+        return response()->json(new UserResource($user));
+    }
+
+    public function update(UserUpdateRequest $request, UserId $id): JsonResponse
+    {
+        $this->userUsecases->update($id, $request->validated());
+        return response()->json(null, Response::HTTP_NO_CONTENT);
+    }
+}
+```
+
+### インフラストラクチャレイヤー
+- 外部サービスとの連携
+- データベースアクセス
+- キャッシュ管理
+- リポジトリパターンで各モデルは一つのリポジトリを持つ
+- 各リポジトリは抽象リポジトリクラスを持つ
+- 汎用的な処理は抽象リポジトリに実装する
+- そのModel特有の処理は各リポジトリに実装する
+
+```php
+// 抽象リポジトリクラスの例
+abstract class Repository
+{
+    private string $modelClass;
+
+    protected Model $model;
+
+    public function __construct(string $modelClass)
+    {
+        $this->modelClass = $modelClass;
+        $this->model = app($this->modelClass);
+    }
+
+    /**
+     * テーブルの最初の一件目を取得
+     */
+    public function getFirst()
+    {
+        return $this->model->first();
+    }
+}
+
+// リポジトリクラスの例
+class UserRepository extends Repository
+{
+    public function __construct()
+    {
+        parent::__construct(User::class);
+    }
+
+    public function create($email, $name): User
+    {
+        return $this->model->create([
+            'email' => $email,
+            'name' => $name,
+        ]);
+    }
+}
+```
+
+## 5. Migrationの規約
+
+- 全てのテーブルにテーブル名のcommentを日本語で入れる
+- テーブル名は複数形とする
+- 外部キーはテーブル名（単数）_idとする
+- 外部キーはunsignedBigIntegerで定義後に設定する
+- 全てのカラム名にcommentを日本語で入れる
+- カラムが種別の場合は(0：平日、1：日曜、2：土祝)などのコメントも入れる
+- 主キーはIDでbigintとする
+- 数字型はunsignedでdefaultは0にする
+- 小数点はdecimalを使用する
+- 日付と時間はnull許可をし、デフォルトはなしとする
+- 論理削除としてlaravelのsoftdeletesを全てのテーブルに入れる
+- laravelでデフォルトで用意されているファイルでusers以外のファイルは触らないでください
+
+```php
+// migrationの例
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('users', function (Blueprint $table) {
+            $table->comment('ユーザー');
+            $table->id()->comment('ID');
+            $table->string('name')->nullable()->comment('名前');
+            $table->string('first_name')->nullable()->comment('名');
+            $table->string('login_id')->nullable()->comment('ログインID');
+            $table->string('password')->nullable()->comment('パスワード');
+            $table->date('berthday')->nullable()->comment('生年月日');
+            $table->unsignedTinyInteger('role')->default(2)->comment('権限(0：マスタ、1：編集、2：閲覧)');
+            $table->timestamps();
+            $table->softDeletes()->comment('削除日時');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('users');
+    }
+};
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('user_profiles', function (Blueprint $table) {
+            $table->comment('ユーザープロファイル');
+            $table->id()->comment('ID');
+            $table->unsignedBigInteger('user_id')->comment('ユーザーID');
+            $table->string('address')->nullable()->comment('住所');
+            $table->string('phone_number')->nullable()->comment('電話番号');
+            $table->string('avatar')->nullable()->comment('アバター画像パス');
+            $table->timestamps();
+            $table->softDeletes()->comment('削除日時');
+
+            // 外部キー制約（users.idを参照）
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('user_profiles');
+    }
+};
+```
+
+## 5. Modelの規約
+
+- マイグレーションに対応するモデルを作成
+- モデル名は単数形とする
+- fillableを作成する
+- castをマイグレーションまたはdb.mmdを参照して型通りのcastを作成
+- db.mmd参照してからリレーションを作成
+- SoftDeletesのトレイトを読み込む
+- User、Member、Adminモデルは「Illuminate\Foundation\Auth\User as Authenticatable」を継承する。それ以外は「Illuminate\Database\Eloquent\Model」を継承する
+
+
+```php
+// Modelの例
+class User extends Authenticatable
+{
+    use HasApiTokens, HasFactory, ModelCommonTrait, Notifiable, SoftDeletes;
+
+    /**
+     * 一括代入可能な属性
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'first_name',
+        'login_id',
+        'password',
+        'berthday',
+        'role',
+    ];
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'password',
+    ];
+
+    /**
+     * キャストする属性
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'berthday' => 'date',
+        'role' => 'integer',
+        'deleted_at' => 'datetime',
+    ];
+
+    //パスワードハッシュ化
+    public function setPasswordAttribute($value)
+    {
+        if (! empty($value)) {
+            $this->attributes['password'] = Hash::make($value);
+        }
+    }
+
+    /**
+     * リレーション：ユーザーが持つプロファイル（例）
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function userProfiles(): HasMany
+    {
+        return $this->hasMany(UserProfile::class);
+    }
+}
+
+class UserProfile extends Model
+{
+    use SoftDeletes;
+
+    /**
+     * 一括代入可能な属性
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'user_id',
+        'address',
+        'phone_number',
+        'avatar',
+    ];
+
+    /**
+     * キャストする属性
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'user_id' => 'integer',
+        'deleted_at' => 'datetime',
+    ];
+
+    /**
+     * リレーション：ユーザー
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+}
+```
+
+## 6. データ取得の規約
+
+- 基本はEloquent ORMを使用して集計系のデータ取得の場合はクエリビルダを使用
+- データ取得の処理はリポジトリパターンに記述する。汎用処理は抽象クラスに実装する。個別の処理は各リポジトリに実装する
+- Eloquent ORMで他のテーブルと結合する場合はwithを使用する。Join使用は禁止とする
+- クエリビルダで他のテーブルと結合する場合はjoinを可能とする
+
+## 7. lighthouseの規約
+
+
+- ディレクトリ構成
+graphql/              # graphqlディレクトリ
+├── types/            # type定義のファイル
+├── mutations/        # mutation定義のファイル
+├── inputs/           # input定義のファイル
+└── query/            # query定義のファイル
+
+- typeの参考
+- typeはmodelに紐づいている
+- Typeとフィールド名にコメントをつける
+- idは必須
+- 作成日時、更新日時、削除日時は必須
+- リレーションには、@belongsTo,@hasMany,@hasOneを使用
+- enumにはlaravel-enumを使用する
+```graphql
+"""
+ユーザー情報を表す型
+"""
+type User {
+    """
+    ユーザーのID
+    """
+    id: ID!
+
+    """
+    ユーザーの姓
+    """
+    last_name: String
+
+    """
+    ユーザーの名
+    """
+    first_name: String
+
+    """
+    ログインID
+    """
+    login_id: String
+
+    """
+    権限 (0: マスタ、1: 編集、2: 閲覧)
+    """
+    authority: AuthorityEnum
+
+    """
+    更新者
+    """
+    update_user: User @belongsTo
+
+    """
+    レコードの作成日時
+    """
+    created_at: DateTime
+
+    """
+    レコードの更新日時
+    """
+    updated_at: DateTime
+
+    """
+    レコードの削除日時 (ソフトデリート)
+    """
+    deleted_at: DateTime
+
+    """
+    和光運輸営業所
+    """
+    own_sales_office: OwnSalesOffice @belongsTo
+}
+
+```
+
+## 8. テスト戦略の規約
+
+### ドメインテスト
+- ユニットテストでドメインロジックを検証
+- 値オブジェクトの不変性を確認
+- ドメインイベントの発行を確認
+
+```php
+// ドメインテストの例
+class UserTest extends TestCase
+{
+    public function test_change_name(): void
+    {
+        $user = new User(
+            new UserId(1),
+            new UserName('old name'),
+            new Email('test@example.com')
+        );
+
+        $user->changeName(new UserName('new name'));
+
+        $this->assertEquals('new name', $user->getName()->value());
+        $this->assertCount(1, $user->releaseEvents());
+    }
+}
+```
+
+### アプリケーションテスト
+- ユースケースのテスト
+- トランザクションのテスト
+- イベントディスパッチのテスト
+
+### インフラストラクチャテスト
+- リポジトリのテスト
+- 外部サービス連携のテスト
+- APIエンドポイントのテスト
+
+## 9. セキュリティ
+
+### 認証・認可
+- JWTを使用した認証
+- ロールベースのアクセス制御
+- APIキーの管理
+
+### データ保護
+- 入力値のバリデーション
+- SQLインジェクション対策
+- XSS対策
+- CSRF対策
+
+## 10. パフォーマンス
+
+### キャッシュ戦略
+- リクエストキャッシュ
+- クエリキャッシュ
+- フラグメントキャッシュ
+
+### データベース最適化
+- インデックスの適切な使用
+- N+1問題の回避
+- クエリの最適化
+
+## 11. エラーハンドリング
+
+### 例外処理
+- ドメイン例外
+- アプリケーション例外
+- インフラストラクチャ例外
+
+```php
+// 例外ハンドラーの例
+class Handler extends ExceptionHandler
+{
+    public function register(): void
+    {
+        $this->renderable(function (DomainException $e, $request) {
+            return response()->json([
+                'message' => $e->getMessage(),
+            ], Response::HTTP_BAD_REQUEST);
+        });
+    }
+}
+```
+
+## 12. ロギング
+
+### ログレベル
+- ERROR: システムエラー
+- WARNING: 警告
+- INFO: 通常の操作
+- DEBUG: デバッグ情報
+
+### ログフォーマット
+```json
+{
+    "timestamp": "2024-01-01T00:00:00Z",
+    "level": "INFO",
+    "message": "User created",
+    "context": {
+        "user_id": 1,
+        "action": "create"
+    }
+}
+```
+
+## 13. デプロイメント
+
+### 環境設定
+- 環境変数の管理
+- 設定ファイルの管理
+- シークレットの管理
+
+### CI/CD
+- 自動テスト
+- 自動デプロイ
+- ロールバック戦略
