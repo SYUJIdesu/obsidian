@@ -1,13 +1,14 @@
 ---
-title: "単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer"
-source: "https://note.com/shotovim/n/n5833578984bf#2c73dc90-18b8-4cc4-b959-f1e394880d59"
+title: 単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer
+source: https://note.com/shotovim/n/n5833578984bf#2c73dc90-18b8-4cc4-b959-f1e394880d59
 author:
   - "[[note（ノート）]]"
 published: 2025-03-10
 created: 2025-05-15
-description: "はじめに  こんにちは松濤Vimmerです。以前書いた「メモ管理はObsidian in Cursor が最強」を多くの方に読んでいただき沢山の感想をいただきました！  前回の記事からおよそ3ヶ月が経過し自分のObsidian事情もアップデートされたので今回はアップデート版を書かせていただきました。前回よりもボリュームが多くなっています！！  Obsidian in Cursorとは  最近、ObsidianやCursorを使ったメモ管理への関心が高まっています。Obsidian in Cursorとは、Markdownベースのナレッジ管理ツール「Obsidian」とAI搭載コードエ"
+description: はじめに  こんにちは松濤Vimmerです。以前書いた「メモ管理はObsidian in Cursor が最強」を多くの方に読んでいただき沢山の感想をいただきました！  前回の記事からおよそ3ヶ月が経過し自分のObsidian事情もアップデートされたので今回はアップデート版を書かせていただきました。前回よりもボリュームが多くなっています！！  Obsidian in Cursorとは  最近、ObsidianやCursorを使ったメモ管理への関心が高まっています。Obsidian in Cursorとは、Markdownベースのナレッジ管理ツール「Obsidian」とAI搭載コードエ
 tags:
-  - "web"
+  - web
+  - Zettelkasten
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/178601756/rectangle_large_type_2_b448040bae884a4c13339e1e95bd0b2e.png?width=1200)
 

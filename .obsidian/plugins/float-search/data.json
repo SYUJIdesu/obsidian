@@ -4,10 +4,10 @@
     "explainSearch": false,
     "extraContext": false,
     "matchingCase": false,
-    "query": "",
+    "query": "tag:#AWS  ",
     "sortOrder": "alphabetical"
   },
-  "showFilePath": true,
+  "showFilePath": false,
   "showInstructions": true,
   "defaultViewType": "modal"
 }

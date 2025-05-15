@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "af476a779191f6bb",
+        "id": "5d7b2808dd595387",
         "type": "tabs",
         "children": [
           {
-            "id": "80088f2b044a41fd",
+            "id": "c8f300d6bd1114cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Templete/zettlkasten.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "zettlkasten"
             }
-          },
-          {
-            "id": "7140f6b3a9421b8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/LiteratureNote/Web/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280.5
   },
   "right": {
     "id": "d9193b2caea86a7e",
@@ -175,13 +160,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "e0311cb13ceb22ad",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 427.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,57 +191,58 @@
       "float-search:Search obsidian in modal view": false,
       "obsidian-kanban:カンバンボードを新規作成": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "1f243dc327907e05",
   "lastOpenFiles": [
     "README.md",
-    " README.md",
-    "Zettelkasten/LiteratureNote/Web/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
-    "Zettelkasten/LiteratureNote/WebW/単なるメモから知的資産へ：Obsidian in Cursorで構築する知的生産システム｜松濤Vimmer.md",
-    "Templete/zettlkasten.md",
-    "Zettelkasten/LiteratureNote/WebW",
-    "Zettelkasten/LiteratureNote/Web",
     "Zettelkasten/zettekkasten.md",
-    "無題のファイル 2.md",
-    "2025-05-15.md",
-    "無題のファイル 1.md",
+    "Web/GitHub.md",
     "Zettelkasten/index.md",
-    "Templete",
-    "Articles.md",
-    "デイリー/無題のファイル.md",
-    "Ideaverse Lite 1.5/+/3 Ways to Go Faster with Obsidian (Example).md",
-    "デイリー/無題のフォルダ",
-    "Ideaverse Lite 1.5/Atlas/Dots/People/Mary Wollstonecraft (kit).md",
-    "Ideaverse Lite 1.5/Atlas/Dots/People/Cassandra.md",
-    "Ideaverse Lite 1.5/Atlas/Dots/People/Bill Russell (kit).md",
-    "Ideaverse Lite 1.5/+/+ About +.md",
-    "Ideaverse Lite 1.5/Home Basic.md",
-    "Ideaverse Lite 1.5/Home.md",
-    "Ideaverse Lite 1.5/Atlas/Maps/Meta PKM.md",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 6 (Example).md",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 5 (Example).md",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 4 (Example).md",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 3 (Example).md",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 2 (Example).md",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course/UCLA - SYWE - Session 1 (Example).md",
-    "Ideaverse Lite 1.5/x/Images/wolverine-tethered.jpg",
-    "Ideaverse Lite 1.5/x/Images/whelan-the-wave-1994.jpg",
-    "Ideaverse Lite 1.5/x/Images/whelan-space-station-1978-mod.jpg",
-    "Ideaverse Lite 1.5/x/Images/stay-on-target.jpg",
-    "Ideaverse Lite 1.5/x/Images/sort-by-file-name-a-to-z.png",
-    "Ideaverse Lite 1.5/x/Images/robert-mccall-space-ship-launch-narrower.png",
-    "Ideaverse Lite 1.5/x/Images/robert-mccall-space-ship-launch-narrow.jpg",
-    "Ideaverse Lite 1.5/x/Images/robert-mccall-space-ship-launch-mid.jpg",
-    "Ideaverse Lite 1.5/x/Images/robert-mccall-black-hole-concept-art-bottom.jpg",
-    "Ideaverse Lite 1.5/x/Images/robert-mccall-black-hole-concept-art copy.jpg",
-    "Ideaverse Lite 1.5/Efforts/Notes/UCLA Supercharge Course",
-    "Ideaverse Lite 1.5/Efforts/Notes/My Newsletters",
-    "Ideaverse Lite 1.5/Calendar/Notes/Past Years",
-    "Ideaverse Lite 1.5/Atlas/Dots/X",
-    "Ideaverse Lite 1.5/Atlas/Dots/Things",
-    "Ideaverse Lite 1.5/Atlas/Dots/Statements",
+    "Zettelkasten/LiteratureNote/Web/(もうちょっと実践的な)単体テストの心得！  ハートランド・ザ・ワールド.md",
+    "Zettelkasten/LiteratureNote/Web/【アウトサイド・イン思考】｜社員研修なら未来マネジメント.md",
+    "Zettelkasten/LiteratureNote/Web/Obsidianのフォルダ構成をIdeaverse準拠にしてみた｜illy  入谷 聡.md",
+    "Zettelkasten/LiteratureNote/Web/メラビアンの法則とは？【わかりやすく解説】第一印象、誤解.md",
+    "Zettelkasten/LiteratureNote/Web/今日から出来る三方よし-三方よしを世界に広める会.md",
+    "Zettelkasten/LiteratureNote/Web/統計検定2級までのロードマップはこんな感じでした。｜機械学習のメモや学習内容のアウトプット.md",
+    "Zettelkasten/LiteratureNote/Web/人工知能を学ぶためのロードマップ（東京大学松尾・岩澤研究室公認）.md",
+    "Zettelkasten/LiteratureNote/Web/GraphQLとRESTの比較─知っておきたい両者の違い.md",
+    "Zettelkasten/LiteratureNote/Web/KPI（重要業績評価指標）.md",
+    "Zettelkasten/LiteratureNote/Web/KPI（重要業績評価指標）.md",
+    "Zettelkasten/LiteratureNote/Web/🚀 Figma MCP × Cursorで加速するUI実装とその先の工夫.md",
+    "Zettelkasten/LiteratureNote/Web/これから始める Cursor エディター!.md",
+    "Zettelkasten/LiteratureNote/Web/君たちはCursorを本当に使えているか.md",
+    "Zettelkasten/LiteratureNote/Web/【2025年1月】Cursor Settings の設定と日本語訳について.md",
+    "Zettelkasten/LiteratureNote/Web/はじめに｜サクッと始めるAIコードエディタ【Cursor  VS Code  ChatGPT】.md",
+    "Zettelkasten/LiteratureNote/Web/【Cursor】次世代AIコードエディタで業務効率化！使い方や料金、特徴を徹底解説.md",
+    "Zettelkasten/LiteratureNote/Web/【図解で解説】Basic認証とは.md",
+    "Zettelkasten/LiteratureNote/Web/DevOps エンジニアとは？役割などを分かりやすく解説.md",
+    "Zettelkasten/LiteratureNote/Web/言語の壁が辛い…。国際化するチームを束ねる鍵は「ロゼッタストーン」にあり ー Organization i18n｜Yuichi Murata.md",
+    "Zettelkasten/LiteratureNote/Web/アジャイルソフトウェア開発においてドキュメント管理方法（考え方編）.md",
+    "Zettelkasten/LiteratureNote/Web/-Qiita記事Part.13-アジャイル開発で最低限作成したいドキュメント「ロゼッタストーンドキュメント」  Nightley Engineers.md",
+    "Zettelkasten/LiteratureNote/Web/（Java）DTOクラスとは？どう実装すれば良いのか？.md",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/LICENSE",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon9.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon8.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon7.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon6.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon5.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon1.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon4.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon3.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/components/Polygon2.vue",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-7.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-9.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-8.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-6.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-5.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-2.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-4.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-3.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-10.svg",
+    "Slidev/slidev/node_modules/@slidev/theme-bricks/assets/page-1.svg",
     "無題のファイル.canvas"
   ]
 }
