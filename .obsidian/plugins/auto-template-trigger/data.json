@@ -1,0 +1,8 @@
+{
+  "folderSpecificTemplates": [
+    {
+      "folderPath": "template",
+      "templateName": "zettlkasten"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "dataview",
+    "tag-count-table"
+  ],
+  "accentColor": "#d21947"
+}
