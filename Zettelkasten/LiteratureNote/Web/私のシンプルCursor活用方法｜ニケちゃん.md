@@ -1,14 +1,14 @@
 ---
-title: "私のシンプルCursor活用方法｜ニケちゃん"
-source: "https://note.com/nike_cha_n/n/nd0f7566019ae"
+title: 私のシンプルCursor活用方法｜ニケちゃん
+source: https://note.com/nike_cha_n/n/nd0f7566019ae
 author:
   - "[[note（ノート）]]"
 published: 2025-02-16
 created: 2025-05-15
-description: "こんにちは、ニケです。 皆さん、Cursor 使っていますでしょうか？  私はそろそろ使用歴1年半くらいになります。  5ヶ月前にこんな記事を書いたのですが、AI時代のコーディングアシスタントの進化は早く、今はもうこの時とは全く異なる使い方をしているので改めて紹介したいと思います（一部被っている内容もあります）。  なお、AIコーディングアシスタントにはその他にも、Github CopilotやCline、Windsurfなどがありますが、これらのコーディングツールはCursorほど使ったことがないため、今回の記事では紹介・比較はしません。  XのTLでもいろんな宗派を見か"
+description: こんにちは、ニケです。 皆さん、Cursor 使っていますでしょうか？  私はそろそろ使用歴1年半くらいになります。  5ヶ月前にこんな記事を書いたのですが、AI時代のコーディングアシスタントの進化は早く、今はもうこの時とは全く異なる使い方をしているので改めて紹介したいと思います（一部被っている内容もあります）。  なお、AIコーディングアシスタントにはその他にも、Github CopilotやCline、Windsurfなどがありますが、これらのコーディングツールはCursorほど使ったことがないため、今回の記事では紹介・比較はしません。  XのTLでもいろんな宗派を見か
 tags:
-  - "web"
-  - "cursor"
+  - web
+  - AI
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/174023781/rectangle_large_type_2_c14a52282fd616bb1d85618d94698621.png?width=1200)
 

@@ -1,14 +1,14 @@
 ---
-title: "Laravel VS Code Extension Public Beta"
-source: "https://laravel-news.com/laravel-vs-code-extension-public-beta"
+title: Laravel VS Code Extension Public Beta
+source: https://laravel-news.com/laravel-vs-code-extension-public-beta
 author:
   - "[[Laravel News]]"
 published: 2024-12-16
 created: 2025-05-15
-description: "The long awaited public beta of the new Laravel VS Code Extension is finally here."
+description: The long awaited public beta of the new Laravel VS Code Extension is finally here.
 tags:
-  - "web"
-  - "Laravel"
+  - web
+  - Laravel
 ---
 VS Code has firmly established itself as the go-to editor for developers worldwide. While PHPStorm seems to be the preferred choice for Laravel developers, many, especially those transitioning from other languages, are comfortable and would prefer to do Laravel development in VS Code.
 

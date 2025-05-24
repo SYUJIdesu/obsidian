@@ -1,14 +1,14 @@
 ---
-title: "AWS MCP Serversが登場したよ"
-source: "https://zenn.dev/shirochan/articles/72827d09fdd0df"
+title: AWS MCP Serversが登場したよ
+source: https://zenn.dev/shirochan/articles/72827d09fdd0df
 author:
   - "[[Zenn]]"
 published: 2025-04-09
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "MCP"
+  - web
+  - AI
 ---
 11
 

@@ -1,15 +1,15 @@
 ---
-title: "Integrating GraphQL with Vue 3"
-source: "https://enterprisevue.dev/blog/integrating-graphql-with-vue-3/"
+title: Integrating GraphQL with Vue 3
+source: https://enterprisevue.dev/blog/integrating-graphql-with-vue-3/
 author:
   - "[[Solomon Eseme]]"
   - "[[authors@enterprisevue.dev]]"
-published:
+published: 
 created: 2025-05-15
-description: "In this guide, we'll explore how to integrate GraphQL with Vue 3, discuss its benefits, and provide practical examples and code snippets."
+description: In this guide, we'll explore how to integrate GraphQL with Vue 3, discuss its benefits, and provide practical examples and code snippets.
 tags:
-  - "web"
-  - "GraphQL"
+  - web
+  - GraphQL
 ---
 GraphQL is a powerful query language for APIs that enables efficient data fetching and manipulation. Integrating GraphQL with Vue 3 allows developers to build dynamic and responsive applications by fetching data precisely tailored to their needs. In this guide, we'll explore how to integrate GraphQL with Vue 3, discuss its benefits, and provide practical examples and code snippets.
 

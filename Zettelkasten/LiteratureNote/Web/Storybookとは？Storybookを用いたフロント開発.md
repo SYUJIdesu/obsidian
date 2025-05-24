@@ -1,14 +1,14 @@
 ---
-title: "Storybookとは？Storybookを用いたフロント開発"
-source: "https://zenn.dev/fullyou/articles/853b77a3ce9144"
+title: Storybookとは？Storybookを用いたフロント開発
+source: https://zenn.dev/fullyou/articles/853b77a3ce9144
 author:
   - "[[Zenn]]"
 published: 2022-12-17
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Storybook"
+  - web
+  - フロントエンド
 ---
 279
 

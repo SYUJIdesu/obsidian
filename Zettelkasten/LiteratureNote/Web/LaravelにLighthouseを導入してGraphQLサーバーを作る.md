@@ -1,13 +1,14 @@
 ---
-title: "LaravelにLighthouseを導入してGraphQLサーバーを作る"
-source: "https://tech.fusic.co.jp/posts/2019-12-08-laravel-lighthouse-graphql-server/"
-author:
-published:
+title: LaravelにLighthouseを導入してGraphQLサーバーを作る
+source: https://tech.fusic.co.jp/posts/2019-12-08-laravel-lighthouse-graphql-server/
+author: 
+published: 
 created: 2025-05-15
-description: "この記事ではLaravelでGraphQLサーバーの開発はどんなんだろうという方向けにセットアップから開発の流れ、テストまでざっくり紹介したいと思います。"
+description: この記事ではLaravelでGraphQLサーバーの開発はどんなんだろうという方向けにセットアップから開発の流れ、テストまでざっくり紹介したいと思います。
 tags:
-  - "web"
-  - "lighthouse"
+  - web
+  - Laravel
+  - GraphQL
 ---
 ![Author](https://d3t2k53lg8fjy7.cloudfront.net/public/fdb95e707b9319f0957b90be9c3ac3d6d4f3f273.jpeg) Daiki Urata
 

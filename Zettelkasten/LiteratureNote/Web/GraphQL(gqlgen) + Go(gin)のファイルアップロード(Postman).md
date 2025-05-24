@@ -1,14 +1,14 @@
 ---
-title: "GraphQL(gqlgen) + Go(gin)のファイルアップロード(Postman)"
-source: "https://zenn.dev/ygsn/articles/e047d74c5870ca"
+title: GraphQL(gqlgen) + Go(gin)のファイルアップロード(Postman)
+source: https://zenn.dev/ygsn/articles/e047d74c5870ca
 author:
   - "[[Zenn]]"
 published: 2021-12-17
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "GraphQL"
+  - web
+  - GraphQL
 ---
 14[tech](https://zenn.dev/tech-or-idea)
 

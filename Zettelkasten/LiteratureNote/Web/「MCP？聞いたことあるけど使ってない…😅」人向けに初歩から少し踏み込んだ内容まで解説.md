@@ -1,14 +1,14 @@
 ---
-title: "「MCP？聞いたことあるけど使ってない…😅」人向けに初歩から少し踏み込んだ内容まで解説"
-source: "https://zenn.dev/yamada_quantum/articles/465c4993465053"
+title: 「MCP？聞いたことあるけど使ってない…😅」人向けに初歩から少し踏み込んだ内容まで解説
+source: https://zenn.dev/yamada_quantum/articles/465c4993465053
 author:
   - "[[Zenn]]"
 published: 2025-03-13
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "MCP"
+  - web
+  - AI
 ---
 391
 

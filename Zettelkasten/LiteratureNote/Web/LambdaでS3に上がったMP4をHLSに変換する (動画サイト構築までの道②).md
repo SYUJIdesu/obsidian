@@ -1,15 +1,14 @@
 ---
-title: "LambdaでS3に上がったMP4をHLSに変換する (動画サイト構築までの道②)"
-source: "https://zenn.dev/jinwatanabe/articles/44f0906c6f317b#s3-%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B"
+title: LambdaでS3に上がったMP4をHLSに変換する (動画サイト構築までの道②)
+source: https://zenn.dev/jinwatanabe/articles/44f0906c6f317b#s3-%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B
 author:
   - "[[Zenn]]"
 published: 2022-11-20
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "AWS"
-  - "MediaConvert"
+  - web
+  - AWS
 ---
 5[tech](https://zenn.dev/tech-or-idea)
 

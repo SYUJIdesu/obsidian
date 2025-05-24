@@ -7,6 +7,7 @@ created: 2025-05-15
 description: NULL,SQL,データベース
 tags:
   - web
+  - DB
   - SQL
 ---
 ## 序文

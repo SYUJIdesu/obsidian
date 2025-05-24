@@ -1,14 +1,14 @@
 ---
-title: "KPI（重要業績評価指標）"
-source: "https://www.nri.com/jp/knowledge/glossary/kpi.html"
+title: KPI（重要業績評価指標）
+source: https://www.nri.com/jp/knowledge/glossary/kpi.html
 author:
   - "[[野村総合研究所(NRI)]]"
 published: 2018-03-24
 created: 2025-05-15
-description: "野村総合研究所（NRI）の公式ホームページです。NRIからの提言や調査・レポート、商品サービス、ITソリューション事例、IR情報、採用情報、CSR情報などを掲載しています。"
+description: 野村総合研究所（NRI）の公式ホームページです。NRIからの提言や調査・レポート、商品サービス、ITソリューション事例、IR情報、採用情報、CSR情報などを掲載しています。
 tags:
-  - "web"
-  - "KPI"
+  - web
+  - ビジネス
 ---
 Key Performance Indicator
 

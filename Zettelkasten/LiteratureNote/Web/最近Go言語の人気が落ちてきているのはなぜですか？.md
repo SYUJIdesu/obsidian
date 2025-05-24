@@ -1,14 +1,14 @@
 ---
-title: "最近Go言語の人気が落ちてきているのはなぜですか？"
-source: "https://jp.quora.com/%E6%9C%80%E8%BF%91Go%E8%A8%80%E8%AA%9E%E3%81%AE%E4%BA%BA%E6%B0%97%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A7%E3%81%99%E3%81%8B?top_ans=379274836"
+title: 最近Go言語の人気が落ちてきているのはなぜですか？
+source: https://jp.quora.com/%E6%9C%80%E8%BF%91Go%E8%A8%80%E8%AA%9E%E3%81%AE%E4%BA%BA%E6%B0%97%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%A6%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%AF%E3%81%AA%E3%81%9C%E3%81%A7%E3%81%99%E3%81%8B?top_ans=379274836
 author:
   - "[[Quora]]"
-published:
+published: 
 created: 2025-05-15
-description: "回答 (2件中の1件目) 言うほど落ちてないとは思いつつ、やはり rust が順調に伸びているので go の存在意義は失われつつあるのだろうなと。これは2年前の予言。https://jp.quora.com/anata-ha-puroguramingu-gengo-no-Rust-to-Go-ha-dochira-ga-fukyuu-suruto-omoi-masu-ka/answers/188963735?ch=17&oid=188963735&share=27b15fc8&srid=pmfWD&target_type=answerMeta も r..."
+description: 回答 (2件中の1件目) 言うほど落ちてないとは思いつつ、やはり rust が順調に伸びているので go の存在意義は失われつつあるのだろうなと。これは2年前の予言。https://jp.quora.com/anata-ha-puroguramingu-gengo-no-Rust-to-Go-ha-dochira-ga-fukyuu-suruto-omoi-masu-ka/answers/188963735?ch=17&oid=188963735&share=27b15fc8&srid=pmfWD&target_type=answerMeta も r...
 tags:
-  - "web"
-  - "golang"
+  - web
+  - golang
 ---
 最近Go言語の人気が落ちてきているのはなぜですか？
 

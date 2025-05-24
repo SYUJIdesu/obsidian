@@ -1,14 +1,14 @@
 ---
-title: "（Java）DTOクラスとは？どう実装すれば良いのか？"
-source: "https://zenn.dev/fujishiro/scraps/d58591dc9a2bc1"
+title: （Java）DTOクラスとは？どう実装すれば良いのか？
+source: https://zenn.dev/fujishiro/scraps/d58591dc9a2bc1
 author:
   - "[[Zenn]]"
 published: 2023/11/07にコメント追加
 created: 2025-05-15
-description: "ふじしろさんのスクラップ"
+description: ふじしろさんのスクラップ
 tags:
-  - "web"
-  - "DTO"
+  - web
+  - オブジェクト指向
 ---
 ## DTOクラスとは？
 

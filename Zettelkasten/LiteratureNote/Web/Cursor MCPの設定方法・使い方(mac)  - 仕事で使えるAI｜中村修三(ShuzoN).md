@@ -1,14 +1,14 @@
 ---
-title: "Cursor MCPの設定方法・使い方(mac)  - 仕事で使えるAI｜中村修三(ShuzoN)"
-source: "https://note.com/shuzon__/n/na2aafacf7324"
+title: Cursor MCPの設定方法・使い方(mac)  - 仕事で使えるAI｜中村修三(ShuzoN)
+source: https://note.com/shuzon__/n/na2aafacf7324
 author:
   - "[[note（ノート）]]"
 published: 2025-02-15
 created: 2025-05-15
-description: "Cursor の使い方を知る     CursorでもMCP対応が来ましたね👏  https://www.cursor.com/ja/changelog/-cursor-rules-better-codebase-understanding-new-tab-model  Cursor MCPの設定方法・使い方についてまとまっている記事を見かけなかったので書きます。初めて設定したのでめちゃくちゃハマりました。  まだ英語でも情報が少ないため、まとめておきます。  MCPとは  簡単に言うと、AIが外部データを取得・更新する際に、個別の実装に依存せず統一された方法でやりとりできるようにす"
+description: Cursor の使い方を知る     CursorでもMCP対応が来ましたね👏  https://www.cursor.com/ja/changelog/-cursor-rules-better-codebase-understanding-new-tab-model  Cursor MCPの設定方法・使い方についてまとまっている記事を見かけなかったので書きます。初めて設定したのでめちゃくちゃハマりました。  まだ英語でも情報が少ないため、まとめておきます。  MCPとは  簡単に言うと、AIが外部データを取得・更新する際に、個別の実装に依存せず統一された方法でやりとりできるようにす
 tags:
-  - "web"
-  - "MCP"
+  - web
+  - AI
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/174690077/rectangle_large_type_2_134f9ca66aa6dbe31943543b492ce34e.png?width=1200)
 

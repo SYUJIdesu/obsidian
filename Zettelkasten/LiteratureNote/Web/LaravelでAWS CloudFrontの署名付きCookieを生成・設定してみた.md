@@ -1,15 +1,14 @@
 ---
-title: "LaravelでAWS CloudFrontの署名付きCookieを生成・設定してみた"
-source: "https://zenn.dev/carenet/articles/laravel-cloudfront-s3#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB"
+title: LaravelでAWS CloudFrontの署名付きCookieを生成・設定してみた
+source: https://zenn.dev/carenet/articles/laravel-cloudfront-s3#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB
 author:
   - "[[Zenn]]"
 published: 2024-06-28
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "AWS"
-  - "CloudFront"
+  - web
+  - Laravel
 ---
 [CareNet Engineers](https://zenn.dev/p/carenet) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 

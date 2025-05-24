@@ -1,14 +1,14 @@
 ---
-title: "5年間 Laravel を使って辿り着いた，全然頑張らない「なんちゃってクリーンアーキテクチャ」という落としどころ"
-source: "https://zenn.dev/mpyw/articles/ce7d09eb6d8117#%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E5%90%8D%E3%81%8C%E8%A1%9D%E7%AA%81%E3%81%99%E3%82%8B"
+title: 5年間 Laravel を使って辿り着いた，全然頑張らない「なんちゃってクリーンアーキテクチャ」という落としどころ
+source: https://zenn.dev/mpyw/articles/ce7d09eb6d8117#%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E5%90%8D%E3%81%8C%E8%A1%9D%E7%AA%81%E3%81%99%E3%82%8B
 author:
   - "[[Zenn]]"
 published: 2020-12-24
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "DDD"
+  - web
+  - Laravel
 ---
 1156
 

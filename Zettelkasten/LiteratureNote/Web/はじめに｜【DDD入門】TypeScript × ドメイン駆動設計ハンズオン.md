@@ -1,14 +1,14 @@
 ---
-title: "はじめに｜【DDD入門】TypeScript × ドメイン駆動設計ハンズオン"
-source: "https://zenn.dev/yamachan0625/books/ddd-hands-on/viewer/chapter1_intro"
+title: はじめに｜【DDD入門】TypeScript × ドメイン駆動設計ハンズオン
+source: https://zenn.dev/yamachan0625/books/ddd-hands-on/viewer/chapter1_intro
 author:
   - "[[Zenn]]"
-published:
+published: 
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "DDD"
+  - web
+  - アーキテクチャ
 ---
 このチャプターの目次
 

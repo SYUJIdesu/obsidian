@@ -1,14 +1,14 @@
 ---
-title: "Obsidianのフォルダ構成をIdeaverse準拠にしてみた｜illy / 入谷 聡"
-source: "https://note.com/irritantis/n/nb72f11bbeb03"
+title: Obsidianのフォルダ構成をIdeaverse準拠にしてみた｜illy / 入谷 聡
+source: https://note.com/irritantis/n/nb72f11bbeb03
 author:
   - "[[note（ノート）]]"
 published: 2023-10-08
 created: 2025-05-15
-description: "このnoteは、メモツールObsidianで、Zettelkasten（ツェッテルカステン）などのメモ術を実践している方に向けた、マニアックな解説記事です。   2020年初ごろから使っているObsidianのフォルダ構成を、\"Ideaverse\" 準拠で再構築しました。 現在のVault。テーマはSolarized Ideaverseとは、\"Linking Your Thinking (LYT)\" ブランドでObsidianのトレーニングなどを提供しているNick Milo氏が、2023年9月から無料配布している、ObsidianのVaultセットです。無料で計6回のメール講座が付属"
+description: このnoteは、メモツールObsidianで、Zettelkasten（ツェッテルカステン）などのメモ術を実践している方に向けた、マニアックな解説記事です。   2020年初ごろから使っているObsidianのフォルダ構成を、"Ideaverse" 準拠で再構築しました。 現在のVault。テーマはSolarized Ideaverseとは、"Linking Your Thinking (LYT)" ブランドでObsidianのトレーニングなどを提供しているNick Milo氏が、2023年9月から無料配布している、ObsidianのVaultセットです。無料で計6回のメール講座が付属
 tags:
-  - "web"
-  - "Ideaverse"
+  - web
+  - 情報
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/118359790/rectangle_large_type_2_2d47e4cd22ac956c9723b09099f0d63e.png?width=1200)
 
@@ -139,10 +139,10 @@ Amazon.co.jpで購入する
 🍻
 
 - [
-	#ノート術
+	ノート術
 	](https://note.com/hashtag/%E3%83%8E%E3%83%BC%E3%83%88%E8%A1%93)
 - [
-	#Obsidian
+	Obsidian
 	](https://note.com/hashtag/Obsidian)
 
 Obsidianのフォルダ構成をIdeaverse準拠にしてみた｜illy / 入谷 聡

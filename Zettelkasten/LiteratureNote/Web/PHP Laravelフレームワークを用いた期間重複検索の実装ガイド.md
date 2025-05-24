@@ -1,15 +1,15 @@
 ---
-title: "PHP Laravelフレームワークを用いた期間重複検索の実装ガイド"
-source: "https://youta-ms.online/tec/laravel_period_search"
+title: PHP Laravelフレームワークを用いた期間重複検索の実装ガイド
+source: https://youta-ms.online/tec/laravel_period_search
 author:
   - "[[Youtaの雑記ブログ]]"
 published: 2023-09-28
 created: 2025-05-15
-description: "今回はLaraveで期間検索時の重複データ取得条件ついての記事です。whereを使用して期間重複データの取得条件や逆に期間外のデータ取得条件に付いて解説しています。初心者の方でも分かりやすいように書いているのでぜひ見ていってください！"
+description: 今回はLaraveで期間検索時の重複データ取得条件ついての記事です。whereを使用して期間重複データの取得条件や逆に期間外のデータ取得条件に付いて解説しています。初心者の方でも分かりやすいように書いているのでぜひ見ていってください！
 tags:
-  - "web"
-  - "Laravel"
-  - "SQL"
+  - web
+  - Laravel
+  - SQL
 ---
 - [Home](https://youta-ms.online/)
 - PHP Laravelフレームワークを用いた期間重複検索の実装ガイド

@@ -1,14 +1,15 @@
 ---
-title: "ブラウザからDBに行き着くまでただまとめる"
-source: "https://zenn.dev/moko_poi/articles/c2402f13a870a1"
+title: ブラウザからDBに行き着くまでただまとめる
+source: https://zenn.dev/moko_poi/articles/c2402f13a870a1
 author:
   - "[[Zenn]]"
 published: 2024-03-31
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "ブラウザ"
+  - web
+  - CS
+  - ブラウザ
 ---
 1793
 

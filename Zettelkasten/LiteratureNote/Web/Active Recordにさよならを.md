@@ -1,14 +1,15 @@
 ---
-title: "Active Recordにさよならを"
-source: "https://zenn.dev/naitsu/articles/ed53b91004dce9#active-record%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3"
+title: Active Recordにさよならを
+source: https://zenn.dev/naitsu/articles/ed53b91004dce9#active-record%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3
 author:
   - "[[Zenn]]"
 published: 2024-02-27
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Active Record"
+  - web
+  - CS
+  - アーキテクチャ
 ---
 18
 

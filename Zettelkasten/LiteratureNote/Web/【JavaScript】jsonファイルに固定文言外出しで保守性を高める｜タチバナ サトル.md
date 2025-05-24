@@ -1,14 +1,14 @@
 ---
-title: "【JavaScript】jsonファイルに固定文言外出しで保守性を高める｜タチバナ サトル"
-source: "https://note.com/taro1212/n/n89fff6381f6b"
+title: 【JavaScript】jsonファイルに固定文言外出しで保守性を高める｜タチバナ サトル
+source: https://note.com/taro1212/n/n89fff6381f6b
 author:
   - "[[note（ノート）]]"
 published: 2021-01-06
 created: 2025-05-15
-description: "生のJavaScript + jQuery でalertで出す文言やログに出す文言など、固定文言をそのままハードコーディングするのではなく、別ファイルに外出しして保守性を高めようという話です。  もちろんVueやReactなどのフレームワークを使っていれば綺麗に、簡単に実現できますが、生のJavaScriptを使っている場合は綺麗とは言えない形になります。  簡単な話ですが調べてみると意外とたどり着かなかったので、こちらで説明することにしました。  手順は以下の3つ。  1. jsonファイルに外出ししたい文言を記載  2. JavaScriptでJsonファイルを読み込む  3. J"
+description: 生のJavaScript + jQuery でalertで出す文言やログに出す文言など、固定文言をそのままハードコーディングするのではなく、別ファイルに外出しして保守性を高めようという話です。  もちろんVueやReactなどのフレームワークを使っていれば綺麗に、簡単に実現できますが、生のJavaScriptを使っている場合は綺麗とは言えない形になります。  簡単な話ですが調べてみると意外とたどり着かなかったので、こちらで説明することにしました。  手順は以下の3つ。  1. jsonファイルに外出ししたい文言を記載  2. JavaScriptでJsonファイルを読み込む  3. J
 tags:
-  - "web"
-  - "Json"
+  - web
+  - TypeScript
 ---
 ## 【JavaScript】jsonファイルに固定文言外出しで保守性を高める
 
@@ -94,8 +94,8 @@ function hello(){
 ## いいなと思ったら応援しよう！
 
 - [
-	#JavaScript
+	JavaScript
 	](https://note.com/hashtag/JavaScript)
 - [
-	#jQuery
+	jQuery
 	](https://note.com/hashtag/jQuery)

@@ -1,14 +1,14 @@
 ---
-title: "Node(typescript) + docker 環境構築メモ"
-source: "https://zenn.dev/gakin/scraps/4cc16e7761d1ef"
+title: Node(typescript) + docker 環境構築メモ
+source: https://zenn.dev/gakin/scraps/4cc16e7761d1ef
 author:
   - "[[Zenn]]"
 published: 2022/01/06にコメント追加
 created: 2025-05-15
-description: "aGlnYWtpbg==さんのスクラップ"
+description: aGlnYWtpbg==さんのスクラップ
 tags:
-  - "web"
-  - "環境開発"
+  - web
+  - Docker
 ---
 ## Dockerfile修正 ~ コード実行
 

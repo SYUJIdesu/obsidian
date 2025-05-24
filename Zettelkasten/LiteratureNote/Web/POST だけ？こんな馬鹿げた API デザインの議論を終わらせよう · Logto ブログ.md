@@ -1,14 +1,14 @@
 ---
-title: "POST だけ？こんな馬鹿げた API デザインの議論を終わらせよう · Logto ブログ"
-source: "https://blog.logto.io/ja/post-only-debate"
+title: POST だけ？こんな馬鹿げた API デザインの議論を終わらせよう · Logto ブログ
+source: https://blog.logto.io/ja/post-only-debate
 author:
   - "[[Logto ブログ]]"
 published: 2024-07-15
 created: 2025-05-15
-description: "\"POST だけ\" API の神話を打ち破り、なぜそれが API デザイン原則の誤解に基づいているのかを説明し、RESTful と RPC のアーキテクチャスタイルの適切な使用事例を明確にします。"
+description: '"POST だけ" API の神話を打ち破り、なぜそれが API デザイン原則の誤解に基づいているのかを説明し、RESTful と RPC のアーキテクチャスタイルの適切な使用事例を明確にします。'
 tags:
-  - "web"
-  - "API"
+  - web
+  - API
 ---
 ユーザー認証に何週間も費やすのはもうやめましょう
 

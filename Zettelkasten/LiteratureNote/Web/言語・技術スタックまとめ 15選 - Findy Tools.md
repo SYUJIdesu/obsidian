@@ -1,13 +1,13 @@
 ---
-title: "言語・技術スタックまとめ 15選 - Findy Tools"
-source: "https://findy-tools.io/articles/2024-tech-stack/1"
-author:
+title: 言語・技術スタックまとめ 15選 - Findy Tools
+source: https://findy-tools.io/articles/2024-tech-stack/1
+author: 
 published: 2024-01-23
 created: 2025-05-15
-description: "急成長中のスタートアップからメガベンチャーまで15社の技術スタックを伺いました。技術選定の意思決定の裏側にある背景や意図はどのようなものがあるのか。本記事では、各社が用いている言語やフレームワーク、モニタリングやCI/CDなどで活用している技術やツールなどを取り上げ、開発チームの方々がなぜその技術を選定したのかの意図や背景を紹介させていただきます。<small>※掲載している技術スタックは各社からご提供頂いたものを掲載しております</small>"
+description: 急成長中のスタートアップからメガベンチャーまで15社の技術スタックを伺いました。技術選定の意思決定の裏側にある背景や意図はどのようなものがあるのか。本記事では、各社が用いている言語やフレームワーク、モニタリングやCI/CDなどで活用している技術やツールなどを取り上げ、開発チームの方々がなぜその技術を選定したのかの意図や背景を紹介させていただきます。<small>※掲載している技術スタックは各社からご提供頂いたものを掲載しております</small>
 tags:
-  - "web"
-  - "企業"
+  - web
+  - 情報
 ---
 [![Findy Tools](https://findy-tools.io/img/findy_tools.svg)](https://findy-tools.io/)
 

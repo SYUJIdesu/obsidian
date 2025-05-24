@@ -1,14 +1,14 @@
 ---
-title: "【図解で解説】Basic認証とは"
-source: "https://zenn.dev/mukkun69n/articles/e697d5b9589345"
+title: 【図解で解説】Basic認証とは
+source: https://zenn.dev/mukkun69n/articles/e697d5b9589345
 author:
   - "[[Zenn]]"
 published: 2025-01-02
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "認証"
+  - web
+  - 認証
 ---
 2[tech](https://zenn.dev/tech-or-idea)
 

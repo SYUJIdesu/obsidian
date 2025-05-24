@@ -1,14 +1,14 @@
 ---
-title: "これから始める Cursor エディター!"
-source: "https://zenn.dev/owayo/articles/cbca6b558918bd"
+title: これから始める Cursor エディター!
+source: https://zenn.dev/owayo/articles/cbca6b558918bd
 author:
   - "[[Zenn]]"
 published: 2025-03-02
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - AI
 ---
 124
 

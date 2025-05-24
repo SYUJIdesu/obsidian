@@ -1,14 +1,14 @@
 ---
-title: "-Qiita記事Part.13-アジャイル開発で最低限作成したいドキュメント「ロゼッタストーンドキュメント」 | Nightley Engineers"
-source: "https://www.wantedly.com/companies/nightley/post_articles/508853"
+title: -Qiita記事Part.13-アジャイル開発で最低限作成したいドキュメント「ロゼッタストーンドキュメント」 | Nightley Engineers
+source: https://www.wantedly.com/companies/nightley/post_articles/508853
 author:
   - "[[Wantedly]]"
-published:
+published: 
 created: 2025-05-15
-description: "こんにちは、ナイトレイインターン生の田中です。Wantedlyをご覧の方に、ナイトレイのエンジニアがどのようなことをしているか知っていただきたく、Qiitaに公開している記事をストーリーに載せて..."
+description: こんにちは、ナイトレイインターン生の田中です。Wantedlyをご覧の方に、ナイトレイのエンジニアがどのようなことをしているか知っていただきたく、Qiitaに公開している記事をストーリーに載せて...
 tags:
-  - "web"
-  - "ドキュメント"
+  - web
+  - ドキュメント
 ---
 [![](https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=80,dh=80,da=s,ds=s,cw=80,ch=80,cc=FFFFFF,of=webp)/assets/images/17514/original/558f701b-5611-44f3-bc41-0c96b473917a.png?1427288547)](https://www.wantedly.com/companies/nightley) [![](https://images.wantedly.com/i/RbSod1i?h=80&w=80)](https://www.wantedly.com/users/165636568)
 

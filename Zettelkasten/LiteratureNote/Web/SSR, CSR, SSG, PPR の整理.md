@@ -1,17 +1,14 @@
 ---
-title: "SSR, CSR, SSG, PPR の整理"
-source: "https://zenn.dev/beingish/articles/a5545ebf4f1fa7#csr"
+title: SSR, CSR, SSG, PPR の整理
+source: https://zenn.dev/beingish/articles/a5545ebf4f1fa7#csr
 author:
   - "[[Zenn]]"
 published: 2024-07-21
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "SSR"
-  - "CSR"
-  - "SSG"
-  - "PPR"
+  - web
+  - フロントエンド
 ---
 [株式会社 being-ish](https://zenn.dev/p/beingish) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 

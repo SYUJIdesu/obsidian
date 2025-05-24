@@ -1,14 +1,14 @@
 ---
-title: "DDDの一般的なアーキテクチャをまとめてみた"
-source: "https://zenn.dev/ayumukob/articles/ff183004d09ede#%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AAweb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3(3%E5%B1%A4%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3)"
+title: DDDの一般的なアーキテクチャをまとめてみた
+source: https://zenn.dev/ayumukob/articles/ff183004d09ede#%E4%B8%80%E8%88%AC%E7%9A%84%E3%81%AAweb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3(3%E5%B1%A4%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3)
 author:
   - "[[Zenn]]"
 published: 2022-10-31
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "DDD"
+  - web
+  - アーキテクチャ
 ---
 182
 
@@ -140,7 +140,7 @@ Webアプリケーションに限らず、システム開発するうえでの�
 ## 一般的な層の責務
 
 ![各層の責務](https://storage.googleapis.com/zenn-user-upload/0da2579f4501-20221031.png)  
-参考) [DDDオンライン勉強会 #4「DDDのアーキテクチャ」](https://www.youtube.com/watch?v=y5BX5oxhY1I&t=2433s)  
+参考) [DDDオンライン勉強会 4「DDDのアーキテクチャ」](https://www.youtube.com/watch?v=y5BX5oxhY1I&t=2433s)  
 一般的な各層の責務は図のようになります。  
 ドメイン設計時には **ロジックの責務と照らし合わせて、どの層に配置するべきなのか** 共通認識を持つ必要があります。  
 また、DDDのアーキテクチャで重要なのは **依存の流れも意識します。**  

@@ -1,15 +1,14 @@
 ---
-title: "【AWS】Cloudfront経由でS3に格納されたファイルを確認してみる"
-source: "https://zenn.dev/ashisan/articles/571f2d1c0f2c36#%E5%8E%9F%E5%9B%A0"
+title: 【AWS】Cloudfront経由でS3に格納されたファイルを確認してみる
+source: https://zenn.dev/ashisan/articles/571f2d1c0f2c36#%E5%8E%9F%E5%9B%A0
 author:
   - "[[Zenn]]"
 published: 2021-04-19
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "CloudFront"
-  - "S3"
+  - web
+  - AWS
 ---
 10[tech](https://zenn.dev/tech-or-idea)
 

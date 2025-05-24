@@ -1,14 +1,14 @@
 ---
-title: "Thoughts On A Month With Devin"
-source: "https://www.answer.ai/posts/2025-01-08-devin.html#appendix-tasks-attempted-with-devin"
+title: Thoughts On A Month With Devin
+source: https://www.answer.ai/posts/2025-01-08-devin.html#appendix-tasks-attempted-with-devin
 author:
   - "[[Hamel Husain]]"
-published:
+published: 
 created: 2025-05-15
-description: "Our impressions of Devin after giving it 20+ tasks."
+description: Our impressions of Devin after giving it 20+ tasks.
 tags:
-  - "web"
-  - "AI"
+  - web
+  - AI
 ---
 In March 2024, a new AI company burst onto the scene with impressive backing: a $21 million Series A led by Founders Fund, with support from industry leaders including the Collison brothers, Elad Gil, and other tech luminaries. The team behind it? IOI gold medalists - the kind of people that solve programming problems most of us can’t even understand. Their product, [Devin](https://devin.ai/), promised to be a fully autonomous software engineer that could chat with you like a human colleague, capable of everything from learning new technologies and debugging mature codebases to deploying full applications and even training AI models.
 

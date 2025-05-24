@@ -1,14 +1,15 @@
 ---
-title: "EXPLAINのExtraの項目ちゃんと理解している..?"
-source: "https://zenn.dev/miya_tech/articles/c1b9ca01e90a7b"
+title: EXPLAINのExtraの項目ちゃんと理解している..?
+source: https://zenn.dev/miya_tech/articles/c1b9ca01e90a7b
 author:
   - "[[Zenn]]"
 published: 2023-02-09
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "スロークエリ"
+  - web
+  - DB
+  - SQL
 ---
 17[tech](https://zenn.dev/tech-or-idea)
 

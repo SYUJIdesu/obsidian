@@ -1,15 +1,15 @@
 ---
-title: "ニーズに合わせてツールを選ぶ - CloudFormationからTerraformへ移行する理由｜AY"
-source: "https://note.com/quiet_crocus4147/n/n0b7922090f13"
+title: ニーズに合わせてツールを選ぶ - CloudFormationからTerraformへ移行する理由｜AY
+source: https://note.com/quiet_crocus4147/n/n0b7922090f13
 author:
   - "[[note（ノート）]]"
 published: 2024-12-05
 created: 2025-05-15
-description: "本記事は、Japan Digital Design Advent Calendar 2024 の5日目の記事になります。       adventar.org   三菱UFJフィナンシャル・グループ（以下MUFG）の戦略子会社であるJapan Digital Design（以下JDD）でインフラエンジニアをしている 山我です。  この記事では、CloudFormationからTerraformに移行するに至った経緯について紹介いたします。  こんな人向け    CloudFormationを利用しているが、Terraformも気になっている人    IaCの実装"
+description: 本記事は、Japan Digital Design Advent Calendar 2024 の5日目の記事になります。       adventar.org   三菱UFJフィナンシャル・グループ（以下MUFG）の戦略子会社であるJapan Digital Design（以下JDD）でインフラエンジニアをしている 山我です。  この記事では、CloudFormationからTerraformに移行するに至った経緯について紹介いたします。  こんな人向け    CloudFormationを利用しているが、Terraformも気になっている人    IaCの実装
 tags:
-  - "web"
-  - "CloudFormation"
-  - "Terraform"
+  - web
+  - AWS
+  - Ioc
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/164093302/rectangle_large_type_2_06e3fc991ba7871f87c107c5a02780e3.png?width=1200)
 

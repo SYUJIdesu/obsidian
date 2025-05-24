@@ -1,14 +1,14 @@
 ---
-title: "YAMLプロンプトとAIエージェントによるSECIモデルの強化：Claudeでサクッと整理｜kaneko_sh"
-source: "https://note.com/wanderingbee/n/n2e6730721318"
+title: YAMLプロンプトとAIエージェントによるSECIモデルの強化：Claudeでサクッと整理｜kaneko_sh
+source: https://note.com/wanderingbee/n/n2e6730721318
 author:
   - "[[note（ノート）]]"
 published: 2024-11-09
 created: 2025-05-15
-description: "YAMLとマルチモーダルLLMの可能性：o1-previewで技術エッセイ作成の続き。tomoyukiさんにYAMLの特徴について教えていただいて、「自分は、YAMLを、人と人同士、人とAI同士のコミュニケーション・プロトコルに使うイメージを持つのに便利なツールだと考えいてるのでは…？」と気付かされたので、その思索をまとめてみた。  https://x.com/sarukun99/status/1855243248778060095   YAMLでのコンテキストの渡し方は、階層にしていくとできます。  自然言語よりブレなく、コンテキストに強くできるので、きっちり推論にはおすすめ  ただ"
+description: YAMLとマルチモーダルLLMの可能性：o1-previewで技術エッセイ作成の続き。tomoyukiさんにYAMLの特徴について教えていただいて、「自分は、YAMLを、人と人同士、人とAI同士のコミュニケーション・プロトコルに使うイメージを持つのに便利なツールだと考えいてるのでは…？」と気付かされたので、その思索をまとめてみた。  https://x.com/sarukun99/status/1855243248778060095   YAMLでのコンテキストの渡し方は、階層にしていくとできます。  自然言語よりブレなく、コンテキストに強くできるので、きっちり推論にはおすすめ  ただ
 tags:
-  - "web"
-  - "Claude"
+  - web
+  - AI
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/161238562/rectangle_large_type_2_d9e812ee3121533299254bd1c26ff332.jpeg?width=1200)
 

@@ -1,13 +1,13 @@
 ---
-title: "Laravel GraphQL 開発 入門 | Laravel GraphQL 開発 入門"
-source: "https://lessons-laravel-graphql.d3muvkqb3ogkfv.amplifyapp.com/"
-author:
-published:
+title: Laravel GraphQL 開発 入門 | Laravel GraphQL 開発 入門
+source: https://lessons-laravel-graphql.d3muvkqb3ogkfv.amplifyapp.com/
+author: 
+published: 
 created: 2025-05-15
-description: "Laravel と lighthouse を利用して GraphQL を作成するための 入門講座です。"
+description: Laravel と lighthouse を利用して GraphQL を作成するための 入門講座です。
 tags:
-  - "web"
-  - "GraphQL"
+  - web
+  - Laravel
 ---
 ## Laravel GraphQL 開発 入門
 

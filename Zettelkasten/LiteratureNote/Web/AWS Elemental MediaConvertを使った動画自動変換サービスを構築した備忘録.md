@@ -1,15 +1,14 @@
 ---
-title: "AWS Elemental MediaConvertを使った動画自動変換サービスを構築した備忘録"
-source: "https://blog.cloudsmith.co.jp/2022/06/182/"
+title: AWS Elemental MediaConvertを使った動画自動変換サービスを構築した備忘録
+source: https://blog.cloudsmith.co.jp/2022/06/182/
 author:
   - "[[エンジニアBLOG]]"
 published: 2022-06-01
 created: 2025-05-15
-description: "スマートフォンで撮影された動画を自動変換してストリーミング再生させるサービスの構築方法と必要な知識について説明します。"
+description: スマートフォンで撮影された動画を自動変換してストリーミング再生させるサービスの構築方法と必要な知識について説明します。
 tags:
-  - "web"
-  - "AWS"
-  - "MediaConvert"
+  - web
+  - AWS
 ---
 こんにちは！
 

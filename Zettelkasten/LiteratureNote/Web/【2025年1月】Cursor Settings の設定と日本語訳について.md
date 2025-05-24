@@ -1,14 +1,14 @@
 ---
-title: "【2025年1月】Cursor Settings の設定と日本語訳について"
-source: "https://zenn.dev/toono_f/scraps/6d2228eda9af1d"
+title: 【2025年1月】Cursor Settings の設定と日本語訳について
+source: https://zenn.dev/toono_f/scraps/6d2228eda9af1d
 author:
   - "[[Zenn]]"
 published: 4ヶ月前にクローズ
 created: 2025-05-15
-description: "おとのさんのスクラップ"
+description: おとのさんのスクラップ
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - ツール
 ---
 ## Featuresの設定
 

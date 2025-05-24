@@ -1,14 +1,14 @@
 ---
-title: "言語の壁が辛い…。国際化するチームを束ねる鍵は「ロゼッタストーン」にあり ー Organization i18n｜Yuichi Murata"
-source: "https://note.com/yuichi_murata/n/nf84a4ac12c94"
+title: 言語の壁が辛い…。国際化するチームを束ねる鍵は「ロゼッタストーン」にあり ー Organization i18n｜Yuichi Murata
+source: https://note.com/yuichi_murata/n/nf84a4ac12c94
 author:
   - "[[note（ノート）]]"
 published: 2020-11-14
 created: 2025-05-15
-description: "ヘッダー写真: © Hans Hillewaert / CC BY-SA 4.0 より   ドキュメントの力 Power of Documents  ドキュメントには力がある。だから皆、ドキュメンテーションを気にする。ドキュメントは劣化しない。伝言ゲームとはことなり、一度発したメッセージは変わることなく、組織の隅々にまで届く。ドキュメントに書かれたアイディアは例えそれを書いた人物が去った後だろうと会社に残り続ける。  Documents have power. That’s why people care about documents. Documents are"
+description: ヘッダー写真: © Hans Hillewaert / CC BY-SA 4.0 より   ドキュメントの力 Power of Documents  ドキュメントには力がある。だから皆、ドキュメンテーションを気にする。ドキュメントは劣化しない。伝言ゲームとはことなり、一度発したメッセージは変わることなく、組織の隅々にまで届く。ドキュメントに書かれたアイディアは例えそれを書いた人物が去った後だろうと会社に残り続ける。  Documents have power. That’s why people care about documents. Documents are
 tags:
-  - "web"
-  - "ドキュメント"
+  - web
+  - ドキュメント
 ---
 ![見出し画像](https://assets.st-note.com/production/uploads/images/38795205/rectangle_large_type_2_2120682d6f108b29f76e7685ca6f8db8.jpeg?width=1200)
 

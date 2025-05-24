@@ -1,14 +1,15 @@
 ---
-title: "【Playwrightの前に】E2Eテストを理解したい"
-source: "https://zenn.dev/yuu104/articles/what-is-e2e-test"
+title: 【Playwrightの前に】E2Eテストを理解したい
+source: https://zenn.dev/yuu104/articles/what-is-e2e-test
 author:
   - "[[Zenn]]"
 published: 2024-10-19
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Playwright"
+  - web
+  - Playwright
+  - テスト
 ---
 30
 

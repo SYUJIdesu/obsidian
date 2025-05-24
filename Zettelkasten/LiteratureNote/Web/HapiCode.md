@@ -1,15 +1,14 @@
 ---
-title: "HapiCode"
-source: "https://hapicode.com/php/laravel-sanctum.html"
+title: HapiCode
+source: https://hapicode.com/php/laravel-sanctum.html
 author:
   - "[[HapiCode Blog]]"
 published: 2年前
 created: 2025-05-15
-description: "Laravel JWT APIトークンの仕組みと Laravel Sanctum SPA認証使って認証周りの仕組みを構築"
+description: Laravel JWT APIトークンの仕組みと Laravel Sanctum SPA認証使って認証周りの仕組みを構築
 tags:
-  - "web"
-  - "Laravel"
-  - "認証"
+  - web
+  - Laravel
 ---
 ## Laravel Sanctum 使って API トークン JWT 認証と SPA 認証
 

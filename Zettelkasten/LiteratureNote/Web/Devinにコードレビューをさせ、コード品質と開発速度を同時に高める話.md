@@ -1,14 +1,14 @@
 ---
-title: "Devinにコードレビューをさせ、コード品質と開発速度を同時に高める話"
-source: "https://zenn.dev/globis/articles/28e47f8107c5b5"
+title: Devinにコードレビューをさせ、コード品質と開発速度を同時に高める話
+source: https://zenn.dev/globis/articles/28e47f8107c5b5
 author:
   - "[[Zenn]]"
 published: 2025-03-11
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Devin"
+  - web
+  - AI
 ---
 [GLOBIS Tech](https://zenn.dev/p/globis) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 

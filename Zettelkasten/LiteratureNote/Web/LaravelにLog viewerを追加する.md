@@ -1,14 +1,14 @@
 ---
-title: "LaravelにLog viewerを追加する"
-source: "https://www.kk-crap.info/add_log-viewer_to_laravel/"
+title: LaravelにLog viewerを追加する
+source: https://www.kk-crap.info/add_log-viewer_to_laravel/
 author:
   - "[[まるお]]"
 published: 2023-01-21
 created: 2025-05-15
-description: "laravelで開発を行う際、logを都度ファイルから見るのはめんどうなので、logを見られるGUIを探してみました正しく導入できると以下のような画面を出すことができます。実行環境Docker container php:7.4-apach"
+description: laravelで開発を行う際、logを都度ファイルから見るのはめんどうなので、logを見られるGUIを探してみました正しく導入できると以下のような画面を出すことができます。実行環境Docker container php:7.4-apach
 tags:
-  - "web"
-  - "Laravel"
+  - web
+  - Laravel
 ---
 laravelで開発を行う際、logを都度ファイルから見るのはめんどうなので、logを見られるGUIを探してみました  
 

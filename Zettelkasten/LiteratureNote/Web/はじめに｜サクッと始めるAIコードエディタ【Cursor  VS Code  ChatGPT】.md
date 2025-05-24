@@ -1,14 +1,14 @@
 ---
-title: "はじめに｜サクッと始めるAIコードエディタ【Cursor / VS Code / ChatGPT】"
-source: "https://zenn.dev/umi_mori/books/ai-code-editor-cursor/viewer/intro"
+title: はじめに｜サクッと始めるAIコードエディタ【Cursor / VS Code / ChatGPT】
+source: https://zenn.dev/umi_mori/books/ai-code-editor-cursor/viewer/intro
 author:
   - "[[Zenn]]"
-published:
+published: 
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - AI
 ---
 このチャプターの目次
 

@@ -1,14 +1,14 @@
 ---
-title: "Goはオブジェクト指向言語だろうか？ | POSTD"
-source: "https://postd.cc/is-go-object-oriented/"
+title: Goはオブジェクト指向言語だろうか？ | POSTD
+source: https://postd.cc/is-go-object-oriented/
 author:
   - "[[POSTD | ニジボックスが運営するエンジニアに向けたキュレーションメディア]]"
-published:
+published: 
 created: 2025-05-15
-description: "“オブジェクト指向”の意味を本当に理解するには、この概念の始まりを振り返ることが必要です。最初のオブジェクト指向言語はSimulaという言語で、1960年代に登場しました。オブジェクト、クラス、継承…"
+description: “オブジェクト指向”の意味を本当に理解するには、この概念の始まりを振り返ることが必要です。最初のオブジェクト指向言語はSimulaという言語で、1960年代に登場しました。オブジェクト、クラス、継承…
 tags:
-  - "web"
-  - "golang"
+  - web
+  - golang
 ---
 2015年5月21日
 

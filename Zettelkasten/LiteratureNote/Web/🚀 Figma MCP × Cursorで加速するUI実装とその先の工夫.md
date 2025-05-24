@@ -1,14 +1,14 @@
 ---
-title: "🚀 Figma MCP × Cursorで加速するUI実装とその先の工夫"
-source: "https://zenn.dev/superstudio/articles/91ceb2f2f1d784"
+title: 🚀 Figma MCP × Cursorで加速するUI実装とその先の工夫
+source: https://zenn.dev/superstudio/articles/91ceb2f2f1d784
 author:
   - "[[Zenn]]"
 published: 2025-03-27
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - AI
 ---
 [SUPER STUDIOテックブログ](https://zenn.dev/p/superstudio) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 
@@ -206,7 +206,7 @@ Figma MCPとCursorの連携は、UI実装やフロントエンドエンジニア
 ## 📚 参考資料
 
 - [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
-- [【MCPのトリセツ #6】Figma MCP：デザインとコードを効率的に連携](https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma)
+- [【MCPのトリセツ 6】Figma MCP：デザインとコードを効率的に連携](https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma)
 - [Cursorの知るべき10個のTips](https://zenn.dev/superstudio/articles/28ecc293bd2437)
 
 202

@@ -1,14 +1,15 @@
 ---
-title: "LaravelでGraphQLを使うために学んだメモ"
-source: "https://zenn.dev/yum3/articles/t_search_laravel_graphql#graphql%E3%81%A8%E3%81%AF"
+title: LaravelでGraphQLを使うために学んだメモ
+source: https://zenn.dev/yum3/articles/t_search_laravel_graphql#graphql%E3%81%A8%E3%81%AF
 author:
   - "[[Zenn]]"
 published: 2022-07-02
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Laravel"
+  - web
+  - GraphQL
+  - Laravel
 ---
 26[tech](https://zenn.dev/tech-or-idea)
 

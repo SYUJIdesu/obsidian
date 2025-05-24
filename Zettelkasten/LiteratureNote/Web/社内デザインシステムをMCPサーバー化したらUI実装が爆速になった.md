@@ -1,14 +1,14 @@
 ---
-title: "社内デザインシステムをMCPサーバー化したらUI実装が爆速になった"
-source: "https://zenn.dev/ubie_dev/articles/f927aaff02d618"
+title: 社内デザインシステムをMCPサーバー化したらUI実装が爆速になった
+source: https://zenn.dev/ubie_dev/articles/f927aaff02d618
 author:
   - "[[Zenn]]"
 published: 2025-04-05
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "MCP"
+  - web
+  - AI
 ---
 [Ubie テックブログ](https://zenn.dev/p/ubie_dev) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 

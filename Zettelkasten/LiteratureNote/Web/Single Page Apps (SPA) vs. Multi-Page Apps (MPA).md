@@ -1,15 +1,15 @@
 ---
-title: "Single Page Apps (SPA) vs. Multi-Page Apps (MPA)"
-source: "https://www.jellyfishtechnologies.com/single-page-application-vs-multi-page-application/"
+title: Single Page Apps (SPA) vs. Multi-Page Apps (MPA)
+source: https://www.jellyfishtechnologies.com/single-page-application-vs-multi-page-application/
 author:
   - "[[Vivek Sadh]]"
 published: 2022-03-20
 created: 2025-05-15
-description: "What is multi-page applications (MPAs) and single-page applications (SPAs)? This blog will describe the pros and cons of both to help you make the best choice."
+description: What is multi-page applications (MPAs) and single-page applications (SPAs)? This blog will describe the pros and cons of both to help you make the best choice.
 tags:
-  - "web"
-  - "SPA"
-  - "MPA"
+  - web
+  - アーキテクチャ
+  - フロントエンド
 ---
 In today’s digital era, web applications play a pivotal role in delivering dynamic and interactive experiences to users across the globe. Whether it’s e-commerce platforms, social media networks, or productivity tools, web applications have become indispensable for businesses and individuals alike. According to [Business Research Insights](https://www.businessresearchinsights.com/market-reports/web-development-market-109039), the global web development market size was USD 56000.0 million in 2021 and is expected to reach USD 89013.17 million by 2027, exhibiting a CAGR of 8.03% during the forecast period.
 

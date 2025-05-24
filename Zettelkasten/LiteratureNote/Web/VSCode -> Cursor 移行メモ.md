@@ -1,14 +1,14 @@
 ---
-title: "VSCode -> Cursor 移行メモ"
-source: "https://zenn.dev/yusei_wy/scraps/351e4eadc8eaac"
+title: VSCode -> Cursor 移行メモ
+source: https://zenn.dev/yusei_wy/scraps/351e4eadc8eaac
 author:
   - "[[Zenn]]"
 published: 2024/09/03にコメント追加
 created: 2025-05-15
-description: "yusei_wyさんのスクラップ"
+description: yusei_wyさんのスクラップ
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - AI
 ---
 1. VSCode ： `> Export Profile` でプロファイルをエクスポートする（ローカルファイル or gist）
 2. Cursor ： `> Import Profile` を実行してエクスポートしたプロファイルを読み込み

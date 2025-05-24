@@ -1,14 +1,14 @@
 ---
-title: "CloudFrontとS3を活用したキャッシュ戦略：APIパフォーマンス改善への実践的アプローチ"
-source: "https://zenn.dev/game8_blog/articles/14ac89a3e2e82b"
+title: CloudFrontとS3を活用したキャッシュ戦略：APIパフォーマンス改善への実践的アプローチ
+source: https://zenn.dev/game8_blog/articles/14ac89a3e2e82b
 author:
   - "[[Zenn]]"
 published: 2024-08-20
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "CloudFront"
+  - web
+  - AWS
 ---
 [![](https://storage.googleapis.com/zenn-user-upload/avatar/040df804da.jpeg) ゲームエイトテックブログ](https://zenn.dev/p/game8_blog) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 

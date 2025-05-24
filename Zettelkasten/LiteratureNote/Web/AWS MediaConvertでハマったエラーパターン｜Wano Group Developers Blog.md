@@ -1,15 +1,14 @@
 ---
-title: "AWS MediaConvertでハマったエラーパターン｜Wano Group Developers Blog"
-source: "https://developers.wano.co.jp/1495/"
+title: AWS MediaConvertでハマったエラーパターン｜Wano Group Developers Blog
+source: https://developers.wano.co.jp/1495/
 author:
   - "[[Wano Group Developers Blog]]"
-published:
+published: 
 created: 2025-05-15
-description: "AWS MediaConvertを使う上でハマったエラーや制限等に対する備忘録。"
+description: AWS MediaConvertを使う上でハマったエラーや制限等に対する備忘録。
 tags:
-  - "web"
-  - "AWS"
-  - "MediaConvert"
+  - web
+  - AI
 ---
 ## AWS MediaConvertでハマったエラーパターン
 

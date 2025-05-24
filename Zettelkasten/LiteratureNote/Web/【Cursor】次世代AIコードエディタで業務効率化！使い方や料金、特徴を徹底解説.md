@@ -1,14 +1,14 @@
 ---
-title: "【Cursor】次世代AIコードエディタで業務効率化！使い方や料金、特徴を徹底解説"
-source: "https://weel.co.jp/media/innovator/cursor/#index_id16"
+title: 【Cursor】次世代AIコードエディタで業務効率化！使い方や料金、特徴を徹底解説
+source: https://weel.co.jp/media/innovator/cursor/#index_id16
 author:
   - "[[WEEL]]"
 published: 2025-03-11
 created: 2025-05-15
-description: "AIを搭載した革新的なテキストエディタ「Cursor」を紹介します。現在、Cursorを使用したプログラミングが、多くのビジネスシーンで活用され注目を浴びています。OpenAIとも提携している「Cursor」の詳細が気になる方、必見です。"
+description: AIを搭載した革新的なテキストエディタ「Cursor」を紹介します。現在、Cursorを使用したプログラミングが、多くのビジネスシーンで活用され注目を浴びています。OpenAIとも提携している「Cursor」の詳細が気になる方、必見です。
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - ツール
 ---
 MENU
 

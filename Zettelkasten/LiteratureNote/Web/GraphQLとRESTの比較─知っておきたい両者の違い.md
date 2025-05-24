@@ -1,14 +1,14 @@
 ---
-title: "GraphQLとRESTの比較─知っておきたい両者の違い"
-source: "https://kinsta.com/jp/blog/graphql-vs-rest/"
+title: GraphQLとRESTの比較─知っておきたい両者の違い
+source: https://kinsta.com/jp/blog/graphql-vs-rest/
 author:
   - "[[Solomon Eseme]]"
 published: 2022-09-22
 created: 2025-05-15
-description: "GraphQLとRESTの違いがよくわからないという方へ。それぞれの仕組みから、どちらを使うべきかの判断まで、知っておきたい基礎をまとめてご説明します。"
+description: GraphQLとRESTの違いがよくわからないという方へ。それぞれの仕組みから、どちらを使うべきかの判断まで、知っておきたい基礎をまとめてご説明します。
 tags:
-  - "web"
-  - "GraphQL"
+  - web
+  - API
 ---
 執筆
 

@@ -1,15 +1,14 @@
 ---
-title: "Inertia.jsを使用したモダンなSPA開発"
-source: "https://zenn.dev/shunjuio/articles/152dba0dc01bae"
+title: Inertia.jsを使用したモダンなSPA開発
+source: https://zenn.dev/shunjuio/articles/152dba0dc01bae
 author:
   - "[[Zenn]]"
 published: 2025-01-28
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Laravel"
-  - "inertia"
+  - web
+  - Laravel
 ---
 [合同会社春秋テックブログ](https://zenn.dev/p/shunjuio) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 

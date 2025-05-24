@@ -1,15 +1,14 @@
 ---
 title: "[TS][JS] スプレッド構文とディープコピー"
-source: "https://zenn.dev/yusuke_docha/articles/d51c2ca86887e0#%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%82%B3%E3%83%94%E3%83%BC"
+source: https://zenn.dev/yusuke_docha/articles/d51c2ca86887e0#%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%82%B3%E3%83%94%E3%83%BC
 author:
   - "[[Zenn]]"
 published: 2022-12-21
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "TS"
-  - "スプレッド構文"
+  - web
+  - TypeScript
 ---
 3[tech](https://zenn.dev/tech-or-idea)
 

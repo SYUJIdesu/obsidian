@@ -1,14 +1,14 @@
 ---
-title: "君たちはCursorを本当に使えているか"
-source: "https://zenn.dev/jessicazu/articles/7a46a7e15c153f"
+title: 君たちはCursorを本当に使えているか
+source: https://zenn.dev/jessicazu/articles/7a46a7e15c153f
 author:
   - "[[Zenn]]"
 published: 2025-02-17
 created: 2025-05-15
-description:
+description: 
 tags:
-  - "web"
-  - "Cursor"
+  - web
+  - AI
 ---
 925
 
